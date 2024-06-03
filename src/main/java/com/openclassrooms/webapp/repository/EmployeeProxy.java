@@ -31,7 +31,7 @@ public class EmployeeProxy {
      */
 
     public Iterable<Employee> getEmployees() {
-        String baseApiUrl = props.getApiUrl(); //marche même si c'est rouge
+        String baseApiUrl = props.getApiUrl();
         String getEmployeesUrl = baseApiUrl + "/employees";
         System.out.println(baseApiUrl);
 
